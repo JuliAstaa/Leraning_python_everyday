@@ -5,7 +5,7 @@ A lambda function can take any number of arguments, but can only have one expres
 """
 """
 syntax
-lambda arguments: expression
+lambda arguments: expressionKO
 """
 
 x = lambda x: x* 5
