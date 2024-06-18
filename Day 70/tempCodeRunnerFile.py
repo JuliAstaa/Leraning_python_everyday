@@ -1,0 +1,1 @@
+attacker, defender = defender, attacker
