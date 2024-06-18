@@ -33,6 +33,8 @@ def declare_winner(fighter1, fighter2, first_attacker):
 
     while attacker.health > 0 and defender.health > 0:
         defender.health -= attacker.damage_per_attack
+        if defender.health <= 0:
+            return attacker.name
         attacker, defender = defender, attacker
     
     return defender.name
