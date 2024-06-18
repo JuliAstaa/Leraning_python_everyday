@@ -8,15 +8,15 @@ output: 2
  """
 
 def find_smallest_int(arr: list[int]) -> int:
-    
-    # return int(min(arr))
 
-    smallest = None
+    return min(arr)
 
-    for i in arr:
-        if smallest is None or smallest > i:
-            smallest = i
+    # smallest = None
+
+    # for i in arr:
+    #     if smallest is None or smallest > i:
+    #         smallest = i
     
-    return smallest
+    # return smallest
 
 print(find_smallest_int([34, 25, 88, 2]))
