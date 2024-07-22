@@ -1,0 +1,1 @@
+print(convert_to_binner(2))
